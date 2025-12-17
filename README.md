@@ -130,7 +130,7 @@ PCA_result = pca.fit_transform(hitter_data_df_scaled)
 
 - 스크리 플롯
     
-    ![image.png](asstes/pwa_스크리플롯.png)
+    ![image.png](assets/pwa_스크리플롯.png)
     
     주성분이 4개 이후부터 eigenvalue의 변화율이 크게 달라지기 때문에
     주성분의 개수는 4개로 사용해주었습니다.
@@ -170,7 +170,7 @@ PCA_result = pca.fit_transform(hitter_data_df_scaled)
     correlation_X_Z0_Z1_Z2_Z3
     ```
     
-    ![image.png](asstes/pwa_주성분상관관계_히트맵.png)
+    ![image.png](assets/pwa_주성분상관관계_히트맵.png)
     
 
 - 주성분 분석의 결과로 군집화 진행
@@ -183,7 +183,7 @@ PCA_result = pca.fit_transform(hitter_data_df_scaled)
     
 - 주성분과 군집화 결과를 2차원 평면에 산점도로 표시
     
-    ![image.png](asstes/pwa_산점도.png)
+    ![image.png](assets/pwa_산점도.png)
     
 
 # 5. 요인 분석
@@ -198,13 +198,13 @@ Fa_result = fa.fit(hitter_data_df_scaled)
 
 - 스크리플롯
     
-    ![image.png](asstes/fa_스크리플롯.png)
+    ![image.png](assets/fa_스크리플롯.png)
     
     주성분 분석과 마찬가지로 요인의 개수가 4개 이후로 감소하는 기울기가 크게 변하기 때문에 요인의 개수는 4개를 사용하였습니다.
     
 - 적재값 히트맵 구하기
     
-    ![image.png](asstes/fa_요인적재값_히트맵.png)
+    ![image.png](assets/fa_요인적재값_히트맵.png)
     
 - 요인 해석
 
@@ -217,4 +217,4 @@ Fa_result = fa.fit(hitter_data_df_scaled)
     
 - 군집화 및 2차원 산점도로 표시
     
-    ![image.png](asstes/fa_산점도.png)
+    ![image.png](assets/fa_산점도.png)
